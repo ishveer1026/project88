@@ -28,7 +28,7 @@ canvas.addEventListener("mousedown", my_mousedown);
     {
         /*Uncomment the correct line*/
         //current_position_of_mouse_x = e.clientX - canvas.offsetLeft;
-        current_position_of_mouse_x = e.clientX - canvas.offsetRight;
+        current_position_of_mouse_x = e.clientX - canvas.offsetLeft;
         //current_position_of_mouse_x = e.clientX - canvas.offsetBottom;
 
         
